@@ -1,0 +1,96 @@
+body {
+  background-color: bisque;
+}
+p {
+  color: black;
+}
+h1 {
+  font-weight: bold;
+}
+
+li{
+  color:black
+}
+
+#titre{
+  font-weight: bold;
+  text-align: center;
+  color : red;
+}
+
+#parableu{
+  color : aqua;
+}
+
+#paravert{
+  color : yellowgreen;
+}
+
+#paraencadre{
+  border-width:2px;
+  border-style:groove;
+  border-color:firebrick;
+}
+
+#tab{
+  border: 2px solid blue; 
+  border-collapse: collapse;
+  margin: auto;
+  font-family:cursive;
+  font-size: medium;
+  color: greenyellow;/*pour centrer le tableau dans la page*/
+}
+#nav {
+  list-style: none ;
+  margin: 0 ;
+  padding: 0 ;
+  overflow: hidden ;	/* Création du contexte de formatage */
+}
+#nav li {
+  float: left ;
+  width: 150px ;
+  border: 1px solid #600 ;
+  margin-right: 1px ;
+  color: #fff ;
+  background: #c00 ;
+}
+#nav li a {
+  display: block ;
+  background: #c00 ;
+  color: #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  padding: 4px 0 ;
+  text-align: center ;
+  text-decoration: none ;
+}
+#nav li a:hover, #nav li a:focus, #nav li a:active {
+  background: #900 ;
+  text-decoration: underline ;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: bisque;
+  color: #fff;
+}
+
+header.page-header {
+  background: no-repeat left/cover url(header.png);
+  display: flex;
+  height: 120px;
+  min-width: 120px;
+  align-items: center;
+  color: #fff;
+  text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+  font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+    fantasy;
+  margin: 2%;
+}
+
+
